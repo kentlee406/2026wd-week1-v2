@@ -10,9 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="stylesheets/reset.css" />
     <link rel="stylesheet" href="stylesheets/settings.css" />
     <link rel="stylesheet" href="stylesheets/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -33,10 +35,10 @@
           </p>
         </section>
       </div>
-      <div class="brand-intro mb-24">
+      <div class="brand-intro mb-24" data-aos="fade-up">
         <img src="images/about.png" alt="品牌簡介" />
       </div>
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <section class="bb-1-n300">
           <h2 class="h4 fw-700 cr-n900 mb-24">品牌簡介</h2>
           <h3 class="h5 fw-700 cr-p400 mb-16">
@@ -53,7 +55,7 @@
             相信，美不是炫耀，而是由內而外的呼吸——一雙鞋，剛好說出你心中的樣子。
           </p>
         </section>
-        <section class="mt-48 pb-24 bb-1-n300">
+        <section class="mt-48 pb-24 bb-1-n300" data-aos="fade-up">
           <h2 class="h4 fw-700 mb-24">品牌歷程</h2>
           <ul class="brand-history-list">
             <li class="p-md mb-12">
@@ -70,7 +72,7 @@
             </li>
           </ul>
         </section>
-        <section class="mt-48 pb-24 bb-1-n300">
+        <section class="mt-48 pb-24 bb-1-n300" data-aos="fade-up">
           <h2 class="h4 fw-700 cr-n900 mb-24">品牌理念</h2>
           <ul class="brand-concept-list">
             <li class="p-md mb-12">機能先行：輕量、透氣、防潑水</li>
@@ -78,7 +80,7 @@
             <li class="p-md mb-12">永續材料：選用環保合成皮革與可回收包裝</li>
           </ul>
         </section>
-        <section class="my-48 pb-48 bb-1-n300">
+        <section class="my-48 pb-48 bb-1-n300" data-aos="fade-up">
           <h2 class="h4 fw-700 cr-n900 mb-24">品牌小故事</h2>
           <ul class="brand-story-list">
             <li class="p-md"><a href="#">創辦人筆記：我們為什麼想做鞋？</a></li>
@@ -92,5 +94,10 @@
       <p class="p-sm mb-4">Copyright ©2025 URBNSTYLE.</p>
       <p class="p-sm">All rights reserved.</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      duration: 500;
+    </script>
   </body>
 </html>
